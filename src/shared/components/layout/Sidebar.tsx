@@ -1,4 +1,5 @@
-import Logo from "./logo";
+import Logo from "./Logo";
+
 
 const Sidebar = () => {
   return (
