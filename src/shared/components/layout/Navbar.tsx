@@ -1,17 +1,15 @@
 const Navbar = () => {
   return (
-    <header className="h-16 bg-white shadow flex items-center justify-between px-8">
+    <header className="h-16 bg-white border-b flex items-center justify-between px-6">
+      <h2 className="text-xl font-semibold">
+        Gemnixx ERP
+      </h2>
 
-      <h1 className="text-xl font-semibold">
-        Dashboard
-      </h1>
-
-      <div>
-
-        Admin
-
+      <div className="flex items-center gap-4">
+        <span className="text-gray-600">
+          Admin
+        </span>
       </div>
-
     </header>
   );
 };

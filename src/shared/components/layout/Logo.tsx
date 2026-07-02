@@ -1,7 +1,13 @@
 const Logo = () => {
   return (
-    <div className="text-2xl font-bold tracking-wide text-blue-500">
-      Gemnixx ERP
+    <div>
+      <h1 className="text-2xl font-bold text-blue-500">
+        GEMNIXX
+      </h1>
+
+      <p className="text-xs text-slate-400">
+        ERP PRO
+      </p>
     </div>
   );
 };
